@@ -1,4 +1,4 @@
-export const simulateStreamingResponse = (prompt: string, errorMidStream: boolean = false): Response => {
+export const simulateStreamingResponse = (_prompt: string, errorMidStream: boolean = false): Response => {
   const words = [
     "I", "can", "help", "you", "with", "that.", "Here", "is", "a", "detailed",
     "explanation", "of", "the", "topic", "you", "requested.", "The", "process",
